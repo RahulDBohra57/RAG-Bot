@@ -92,9 +92,9 @@ if pdf_file:
     # Display the History
     for msg in st.session_state.history:
         if msg['role'] == 'user':
-            st.write(f":green[USER:] :blue[{msg['text']}]")
+            st.info(f":green[USER:] :blue[{msg['text']}]")
         else:
-            st.write(f":orange[BOT:] {msg['text']}")
+            st.warning(f":orange[BOT:] {msg['text']}")
     
     # Input from the user using streamlit form
     with st.form('Chatbot Form',clear_on_submit=True):
