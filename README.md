@@ -76,11 +76,11 @@ A full-stack **Retrieval-Augmented Generation (RAG)** system that:
 
 | Layer | Technology |
 |------|------------|
-| **LLM** | Google Gemini 1.5 Flash |
+| **LLM** | Google Gemini 2.5 Flash Lite |
 | **Framework** | LangChain |
 | **Vector Database** | FAISS |
 | **Embeddings** | SentenceTransformers / Gemini-compatible |
-| **Text Extraction** | PyMuPDF (fitz) |
+| **Text Extraction** | PyPDF |
 | **Frontend** | Streamlit |
 | **Backend** | Python |
 | **Deployment** | Streamlit Cloud |
